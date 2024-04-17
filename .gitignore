@@ -1,6 +1,8 @@
 # Created by .ignore support plugin (hsz.mobi)
 
 ### App files
+.deepeval
+.deepeval-cache.json
 
 ### Python template
 # Byte-compiled / optimized / DLL files
