@@ -7,7 +7,7 @@ def ask_lore(message):
     print("Asking Minecraft question...")
     payload = json.dumps({"message": message})
     response = requests.get("http://217.160.188.167:10000//api/chat",
-                            auth=HTTPBasicAuth("gdgfirenze!challenge","gdgfirenze!challenge"),
+                            auth=HTTPBasicAuth("user","pass"),
                             data=payload)
     return response.text
 
